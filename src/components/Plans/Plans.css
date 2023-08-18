@@ -1,0 +1,42 @@
+.plan--cards{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.plan--cards > div{
+    transform: scale(0.9);
+    background-color: var(--caloryCard);
+}
+.plan--cards > div:nth-of-type(2){
+    background-color: var(--orange);
+    transform: scale(1.1);
+}
+.plan--cards > div > :nth-child(1){
+    width: 2rem;
+    height: 2rem;
+    fill: var(--orange);
+}
+.plan--cards > div > button{
+    height: 3rem;
+}
+.plan--cards > div:nth-of-type(2) > :nth-child(1){
+    fill: white;
+}
+.plan--cards > div:nth-of-type(2) > button{
+    color: var(--orange);
+}
+.plans{
+    position: relative;
+}
+.plans > :nth-child(1){
+    width: 32rem;
+    height: 23rem;
+    top: 10rem;
+    left: 1rem;
+}
+.plans > :nth-child(2){
+    width: 32rem;
+    height: 23rem;
+    top: 10rem;
+    right: 1rem;
+}

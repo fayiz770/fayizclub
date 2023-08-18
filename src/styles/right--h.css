@@ -1,0 +1,73 @@
+.right--h{
+    flex: 1;
+    background-color: var(--orange);
+}
+.right--h> .btn{
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+    color: black;
+}
+.heart{
+    width: fit-content;
+    gap: 1rem;
+    padding: 1rem;
+    right: 4rem;
+    top: 7rem;
+    border-radius: 5px;
+    background-color: var(--darkGray);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    color: white;
+}
+.heart > img{
+    width: 2rem;
+}
+.heart > :nth-child(2){
+    color: var(--gray);
+}
+.heart > :nth-child(3){
+    font-size: 1.5rem;
+}
+.hero--image{
+    position: absolute;
+    top: 10rem;
+    right: 8rem;
+    width: 23rem;
+}
+.hero--image--back{
+    position: absolute;
+    top: 4rem;
+    right: 20rem;
+    z-index: -1;
+    width: 15rem;
+}
+.hero--calory{
+    position: absolute;
+    top: 32rem;
+    right: 28rem;
+    background-color: var(--caloryCard);
+    padding: 1rem;
+    border-radius: 5px;
+    width: fit-content;
+    height: 6rem;
+    display: flex;
+    gap: 2rem;
+}
+.hero--calory--image{
+    width: 3rem;
+}
+.calory--text{
+    display: flex;
+    flex-direction: column;
+}
+.first--spans{
+    color: var(--gray);
+}
+.second--spans{
+    color: white;
+    font-size: 1.5rem;
+}

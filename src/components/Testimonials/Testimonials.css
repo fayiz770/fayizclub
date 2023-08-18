@@ -1,0 +1,71 @@
+.testimonials{
+    display: flex;
+    padding: 2rem;
+    text-transform: uppercase;
+    color: white;
+}
+.first{
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.first > :nth-child(1){
+    font-weight: bold;
+    color: var(--orange);
+}
+
+.first > :nth-child(4){
+    max-width: 50rem;
+    text-transform: none;
+    line-height: 2rem;
+    letter-spacing: 0.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.first > :nth-child(5){
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.first > :nth-child(5) > span > :nth-child(1){
+    color: var(--orange);
+}
+.second{
+    flex: 1;
+    position: relative;
+}
+.second > img{
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    object-fit: cover;
+    right: 8rem;
+    top: 2rem;
+}
+.second > :nth-child(1){
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    border: 2px solid var(--orange);
+    background-color: transparent;
+    right: 10rem;
+    top: 0.9;
+}
+.second > :nth-child(2){
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    background-color: var(--orange);
+    right: 6rem;
+    top: 4rem;
+}
+.test--arrows{
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    bottom: 2rem;
+    left: 6rem;
+}
+.test--arrows > img{
+    width: 1.5rem;
+}
