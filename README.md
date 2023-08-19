@@ -1,6 +1,6 @@
 # FayizClub 
 
-This projec is one of my solo project by React [FayizClub](fayizclub.netlify.app).
+This projec is one of my solo project by React
 
 ## Thecnologies used in this project
 
